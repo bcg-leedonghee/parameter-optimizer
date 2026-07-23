@@ -1,0 +1,17 @@
+# Dataset artifacts
+data/
+
+# Local packages and notebook outputs
+packages/
+notebooks/**/results/
+notebooks/**/result*.csv
+notebooks/**/model_*.pkl
+
+# Large binary artifacts
+*.parquet
+*.dill
+*.whl
+
+# Python caches
+__pycache__/
+*.pyc
