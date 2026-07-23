@@ -69,7 +69,7 @@ class CascadeModel:
             #grow_policy='lossguide',
             random_state=42,
             multi_strategy='one_output_per_tree',
-            # GPU parameters
+            # GPU parameters.
             tree_method='hist',
             device='cuda:0',
             n_jobs=-1
