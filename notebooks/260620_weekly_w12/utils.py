@@ -51,7 +51,7 @@ PROCESS_STEPS = [
     'Slitting',
     'Winding',
     'Assembly',
-    'Activation'
+    'Activation',
 ]
 
 DATA_TYPES = [
